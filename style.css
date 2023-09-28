@@ -25,3 +25,20 @@ text-align: center;
 }
 
 /**fine header**/
+
+/**main**/
+
+.card{
+width: calc(100% /3 );
+height: 100px;
+background-color: red;
+border: 2px solid black;
+float: left;
+margin-left: 10px;
+}
+
+.clearfix::after{
+content: "";
+display: block;
+clear: both;
+}
