@@ -30,7 +30,7 @@ margin-bottom: 30px;
 /**main**/
 
 .card{
-width:31%;
+width:calc(100% /3 - 20px);
 background-color: #0f0e17;
 float: left;
 margin: 10px;
